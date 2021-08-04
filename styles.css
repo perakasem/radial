@@ -1,0 +1,130 @@
+body
+{
+    background-color: #edeff2;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+    -o-user-select:none;
+
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.heading
+{
+    font-family: helvetica;
+    text-align: center;
+    color: #797d7a;
+}
+
+#text-output
+{
+    z-index: 1;
+}
+
+.box
+{
+    border-radius: 25px;
+    padding: 10px;
+
+    box-shadow:
+    4px 4px 6px 0 rgba(0, 0, 0, 0.2),
+    -4px -4px 6px 0 rgba(255, 255, 255, 0.8);
+}
+
+table
+{
+    empty-cells: hide;
+    background-color: #edeff2;
+    border-radius: 25px;
+    padding: 5px;
+    margin: auto;
+    border-spacing: 15px 15px;
+}
+
+.row
+{
+    height: 50px;
+    border-radius: 25px;
+}
+
+.field
+{
+    background-color: #edeff2;
+    border-radius: 25px;
+    width: 75px;
+    text-align: center;
+    color: #797d7a;
+    box-shadow:
+    4px 4px 6px 0 rgba(0, 0, 0, 0.2),
+    -4px -4px 6px 0 rgba(255, 255, 255, 0.8);
+}
+
+.num
+{
+    background-color: #edeff2;
+    border-radius: 25px;
+    border: none;
+    width: 75px;
+    text-align: center;
+    color: #797d7a;
+    font-size: 22pt;
+    font-family: courier;
+    box-shadow:
+    4px 4px 6px 0 rgba(0, 0, 0, 0.2),
+    -4px -4px 6px 0 rgba(255, 255, 255, 0.8);
+}
+
+.num:active
+{
+    box-shadow:
+    4px 4px 6px 0 rgba(0, 0, 0, 0.2) inset,
+    -4px -4px 6px 0 rgba(255, 255, 255, 0.8) inset;
+}
+
+#call
+{
+    border-spacing: 10px 10px;
+    border-radius: 25px;
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    box-shadow:
+    4px 4px 6px 0 rgba(0, 0, 0, 0.2),
+    -4px -4px 6px 0 rgba(255, 255, 255, 0.8);
+    background: #cffada linear-gradient(-45deg,
+    rgba(0,0,0,0.22),
+    rgba(255,255,255,0.25))
+}
+
+#call:active
+{
+    text-align: center;
+    box-shadow:
+    4px 4px 6px 0 rgba(0, 0, 0, 0.2) inset,
+    -4px -4px 6px 0 rgba(255, 255, 255, 0.8) inset;
+    background: #cffada linear-gradient(135deg,
+    rgba(0,0,0,0.22),
+    rgba(255,255,255,0.25));
+}
+
+#img
+{
+    max-width: 27%;
+    height: auto;
+}
+
+#img1
+{
+    max-width: 30%;
+    height: auto;
+}
+
+#back
+{
+    box-shadow: none;
+}
